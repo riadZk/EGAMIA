@@ -14,7 +14,6 @@ function About() {
                     <h1 className='text-3xl font-momo font-bold'>Welcome to Our Family</h1>
                     <p className=' font-medium pt-11'>
                         There are no judgments here – No too much or not enough. No glares of disapproval. Here we keep open minds. We are nurturers. We seek only to encourage, empower and entertain. There is no one type. There is no one reason. There is no one way.
-
                         What we are is a diverse community; what we have is a culture of fun; what there is, is room for everyone: all kinds of people with all kinds of goals who’ve chosen to come reach them with us.
                         What we are is a diverse community; what we have is a culture of fun; what there is, is room for everyone: all kinds of people with all kinds of goals who’ve chosen to come reach them with us.
                     </p>
