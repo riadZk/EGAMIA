@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply
+   bg-bg-card dark:bg-darkbg-card 
+    text-center py-6 rounded before:content-['']
+     before:h-1 before:w-full  relative before:absolute 
+     before:top-0 before:left-0 overflow-hidden;
+}
+.card-sm {
+  @apply bg-bg-card dark:bg-darkbg-card text-center py-6 px-4 rounded;
+}
+.SHADO{
+  @apply
+     shadow-lg shadow-blue-500/60 dark:shadow-slate-500 before:content-['']
+     before:h-5 before:w-full  relative before:absolute 
+     before:top-0 before:left-0 overflow-hidden p-8
+}
+.button{
+  @apply 
+  bg-stone-600 text-center dark:bg-stone-900 text-gray-200 h-14 rounded-md
+}
+.button2{
+  @apply
+  bg-gray-400 dark:bg-gray-500 text-center rounded-md
+}
+.list{
+  @apply
+  md:ml-8 text-lg md:my-0  my-7 after:content-[''] 
+  after:w-0 after:bg-white  after:absolute  after:h-[2.5px] after:bottom-[-5px]
+   after:left-[0%] 
+   relative md:hover:after:w-full hover:after:w-12
+}
+.navbar{
+  background-color: transparent ;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  
+}
+.navbar.active{
+  background-color: aquamarine ;
+}
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background-color:rgb(107, 104, 104);
+  border-radius: 20px;
+}
+.navbar {
+  background-color: transparent;
+}
+.BgColour {
+  transition: all 1s;
+  background-color: rgb(31, 31, 31 , 60%);
+}
+.tables2{
+  @apply
+  px-4 py-2 text-lg text-white bg-navg
+}
+.tables{
+  @apply
+  px-4 py-2 font-medium whitespace-nowrap text-white bg-navg
+}
+
