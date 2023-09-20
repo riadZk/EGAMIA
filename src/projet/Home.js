@@ -19,7 +19,7 @@ function Home(props) {
     <div id='home' >
       <Nav />
       
-        <div className='h-[130vh] bg-cover bg-center bg-no-repeat bg-fixe ' style={{
+        <div className='h-screen bg-cover bg-center bg-no-repeat ' style={{
           backgroundImage: `url(${imageURL})`,
         }}>
           <div className=' pt-72 md:pl-20 pl-0  '>
